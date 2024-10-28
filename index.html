@@ -1,53 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dizin Academy</title>
-    <style>
-        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; }
-        header, footer { background-color: #66023c; color: white; text-align: center; padding: 1em 0; }
-        nav ul { list-style-type: none; padding: 0; }
-        nav ul li { display: inline; margin-right: 20px; }
-        nav ul li a { color: white; text-decoration: none; }
-        main { padding: 1em; }
-        section { margin-bottom: 2em; }
-        .gallery-img { width: 100%; max-width: 300px; margin: 10px; }
-        footer p { margin: 0; }
-        
-        /* Адаптивность для мобильных устройств */
-        @media (max-width: 768px) {
-            nav ul li { display: block; margin-bottom: 10px; }
-            .gallery-img { max-width: 100%; }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Dreamscape English Academy</h1>
-        <nav>
-            <ul>
-                <li><a href="Aboutus.html"> About us </a></li>
-                <li><a href="exercise1.html" target="_blank">Exercise </a></li>
-                <li><a href="Student.html" target="_blank">Our students </a></li>
-                <li><a href="contacts1.html" target="_blank"> Contacts </a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="welcome">
-            <h2 style= "color :#66023c" > Welcome to our Dreamscape English Academy!</h2>
-            <h3>Welcome to the Dreamscape English Academy! We provide high-quality, tailored training to meet your needs. Our experienced instructors use modern methods to help you master English in a supportive environment. Join us and unlock new opportunities for your growth!</h3>
-        </section>
-        <section id="gallery-preview">
-            <h2 style= "color :#66023c" >Our Academy </h2>
-          <img class="gallery-img" src="https://avatars.mds.yandex.net/i?id=f2a1b04dd8f526a50c5c8ffa9938f1be95080c8c-4872026-images-thumbs&n=13.jpg">
-          <img class="gallery-img" src="https://avatars.mds.yandex.net/get-altay/5534173/2a000001834565aad3e272265288a6153a68/orig.jpg">
-            <img class="gallery-img" src="https://p0.zoon.ru/a/9/58e294c440c0886e708dec9f_6140ab8ae8dd9.jpg">
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Dreamscape English Academy </p>
-    </footer>
-</body>
+<html>
+  <body>
+    <svg width="800" height="600">
+      <!-- Блочный тепловой пункт -->
+      <rect x="50" y="50" width="200" height="100" fill="lightblue" stroke="black" stroke-width="2"/>
+      <text x="75" y="35" font-size="14" fill="black">Блочный тепловой пункт</text>
+      <line x1="250" y1="100" x2="300" y2="100" stroke="black" stroke-width="2" />
+      <circle cx="325" cy="100" r="25" fill="lightgreen" stroke="black" stroke-width="2" />
+      <text x="310" y="105" font-size="12" fill="black">Клапан</text>
+
+      <!-- Водопроводная насосная станция -->
+      <rect x="50" y="200" width="200" height="100" fill="lightyellow" stroke="black" stroke-width="2"/>
+      <text x="75" y="185" font-size="14" fill="black">Водопроводная насосная станция</text>
+      <line x1="250" y1="250" x2="300" y2="250" stroke="black" stroke-width="2" />
+      <circle cx="325" cy="250" r="25" fill="orange" stroke="black" stroke-width="2" />
+      <text x="310" y="255" font-size="12" fill="black">Насос</text>
+
+      <!-- Противопожарная насосная станция -->
+      <rect x="50" y="350" width="200" height="100" fill="lightcoral" stroke="black" stroke-width="2"/>
+      <text x="75" y="335" font-size="14" fill="black">Противопожарная насосная станция</text>
+      <line x1="250" y1="400" x2="300" y2="400" stroke="black" stroke-width="2" />
+      <circle cx="325" cy="400" r="25" fill="lightblue" stroke="black" stroke-width="2" />
+      <text x="310" y="405" font-size="12" fill="black">Насос</text>
+
+      <!-- Общие связи между объектами -->
+      <line x1="350" y1="100" x2="400" y2="100" stroke="black" stroke-width="2" />
+      <line x1="350" y1="250" x2="400" y2="250" stroke="black" stroke-width="2" />
+      <line x1="350" y1="400" x2="400" y2="400" stroke="black" stroke-width="2" />
+      <text x="410" y="100" font-size="12" fill="black">Теплосеть</text>
+      <text x="410" y="250" font-size="12" fill="black">Водоснабжение</text>
+      <text x="410" y="400" font-size="12" fill="black">Пожарная система</text>
+    </svg>
+  </body>
 </html>
